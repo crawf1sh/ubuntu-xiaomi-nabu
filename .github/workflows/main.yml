@@ -47,6 +47,7 @@ jobs:
             matrix:
                 desktop: [ubuntu-desktop, lomiri]
                 kernel: [6.11]
+            max-parallel: 1
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
